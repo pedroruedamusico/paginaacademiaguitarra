@@ -1,0 +1,40 @@
+html{
+  width: 100%;
+}
+body{background-color:#ebcc8a;font-family:verdana;width: 100%;}
+
+h3{font-size:30px;color:snow;background-color:#4A2921;text-align:center;padding:15px;}
+
+a:link{color:#4A2921;background-color:transparent;text-decoration:none;}
+
+button{
+	background-color: #4A2921;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+display: inline-block;}
+button:hover{background-color:maroon;}
+
+
+#navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #4A2921;
+    color:white;
+}
+li {
+  display: inline;
+  li a{padding: 8px;}
+}li a:hover{
+  background-color: maroon;
+  color:white;
+}
+
+#portada{width: 100%;}
