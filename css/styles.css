@@ -1,20 +1,36 @@
 html{
-  width: 100%;
+  width: 100%;background-color: rgb(246, 245, 243);
 }
-body{background-color:#ebcc8a;font-family:verdana;width: 100%;}
+body{background-color:#ffffff;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;width: 100%;}
 
-h3{font-size:30px;color:snow;background-color:#4A2921;text-align:center;padding:15px;}
+h1{
+  font-size: 500px;
+    font-family: "Impact";
+}
 
-a:link{color:#4A2921;background-color:transparent;text-decoration:none;}
+h2{
+  font-size:50px;
+  font-family: "Impact";
+  background-color: aliceblue;
+}
+#h2-grande{font-size:100px;}
+
+
+h3{font-size:30px;color:rgb(0, 0, 0);background-color:#ffffff;text-align:center;padding:15px;  font-family: "Impact";border-color: black;border-style: solid;}
+
+a:link{color:#2b6682;background-color:transparent;text-decoration:none;}
 
 button{
-	background-color: #4A2921;
-  color: white;
+	background-color: #ffffff;
+  color: rgb(0, 0, 0);
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
-display: inline-block;}
-button:hover{background-color:maroon;}
+display: inline-block;
+border-color: #000000;
+border-style: solid;
+border-radius:7% ;}
+button:hover{background-color:rgb(54, 134, 163);}
 
 
 #navbar{
@@ -37,4 +53,5 @@ li {
   color:white;
 }
 
-#portada{width: 100%;}
+#portada{height:200px;width: 100%;}
+#imagenlogo{height: 200px;width: 200px;display:block;margin:auto;}
